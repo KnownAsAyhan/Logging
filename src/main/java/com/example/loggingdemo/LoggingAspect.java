@@ -30,4 +30,18 @@ public class LoggingAspect {
         logger.error("❌ [AOP] Exception in: " + joinPoint.getSignature().getName());
         logger.error("❗ [AOP] Error: " + ex.getMessage());
     }
+    @Around("execution(* com.example.loggingdemo.StudentService.*(..))")
+    public Object logExecutionTime(org.aspectj.lang.ProceedingJoinPoint joinPoint) throws Throwable {
+        long start = System.currentTimeMillis(); // Start timer
+
+        Object result = joinPoint.proceed(); // Run the actual method
+
+        long end = System.currentTimeMillis(); // End timer
+        long duration = end - start;
+
+        logger.info("⏱️ [AOP] {} executed in {} ms", joinPoint.getSignature().getName(), duration);
+        return result;
+    }
+
+
 }
