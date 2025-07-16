@@ -77,3 +77,66 @@
 2025-07-16 14:40:02 [http-nio-8080-exec-2] INFO  com.example.loggingdemo.LoggingAspect - ⏱️ [AOP] addStudent executed in 3 ms
 2025-07-16 14:40:12 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 2025-07-16 14:40:12 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 15:02:01 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Starting LoggingdemoApplication using Java 21.0.7 with PID 17776 (C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo\target\classes started by user in C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo)
+2025-07-16 15:02:01 [restartedMain] DEBUG com.example.loggingdemo.LoggingdemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-16 15:02:01 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:02:01 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-16 15:02:01 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-16 15:02:02 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 15:02:02 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:02:02 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:02:03 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:02:03 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1401 ms
+2025-07-16 15:02:03 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-16 15:02:03 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 15:02:03 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Started LoggingdemoApplication in 2.993 seconds (process running for 3.966)
+2025-07-16 15:02:37 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:02:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:02:37 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-16 15:02:38 [http-nio-8080-exec-1] INFO  com.example.loggingdemo.LoggingAspect - ➡️ [AOP] addStudent(Amina)
+2025-07-16 15:02:38 [http-nio-8080-exec-1] INFO  com.example.loggingdemo.StudentService - 📚 [INFO] Adding student: Amina
+2025-07-16 15:02:38 [http-nio-8080-exec-1] DEBUG com.example.loggingdemo.StudentService - 🔍 [DEBUG] addStudent() called with name='Amina'
+2025-07-16 15:02:38 [http-nio-8080-exec-1] INFO  com.example.loggingdemo.LoggingAspect - ⬅️ [AOP] addStudent returned: void (1 ms)
+2025-07-16 15:02:45 [http-nio-8080-exec-4] INFO  com.example.loggingdemo.LoggingAspect - ➡️ [AOP] addStudent(Amina)
+2025-07-16 15:02:45 [http-nio-8080-exec-4] INFO  com.example.loggingdemo.StudentService - 📚 [INFO] Adding student: Amina
+2025-07-16 15:02:45 [http-nio-8080-exec-4] DEBUG com.example.loggingdemo.StudentService - 🔍 [DEBUG] addStudent() called with name='Amina'
+2025-07-16 15:02:45 [http-nio-8080-exec-4] INFO  com.example.loggingdemo.LoggingAspect - ⬅️ [AOP] addStudent returned: void (1 ms)
+2025-07-16 15:03:02 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 15:03:02 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 15:11:32 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Starting LoggingdemoApplication using Java 21.0.7 with PID 21092 (C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo\target\classes started by user in C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo)
+2025-07-16 15:11:32 [restartedMain] DEBUG com.example.loggingdemo.LoggingdemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-16 15:11:32 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:11:32 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-16 15:11:32 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-16 15:11:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 15:11:34 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:11:34 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:11:34 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:11:34 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1400 ms
+2025-07-16 15:11:34 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-16 15:11:34 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 15:11:34 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Started LoggingdemoApplication in 2.616 seconds (process running for 3.551)
+2025-07-16 15:11:39 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 15:11:39 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-16 15:22:51 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Starting LoggingdemoApplication using Java 21.0.7 with PID 20688 (C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo\target\classes started by user in C:\Users\user\Desktop\Ayhan\Programming\Java\loggingdemo)
+2025-07-16 15:22:51 [restartedMain] DEBUG com.example.loggingdemo.LoggingdemoApplication - Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-16 15:22:51 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-16 15:22:51 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-07-16 15:22:51 [restartedMain] INFO  org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-07-16 15:22:52 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-07-16 15:22:52 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-16 15:22:52 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-16 15:22:52 [restartedMain] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-07-16 15:22:52 [restartedMain] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1167 ms
+2025-07-16 15:22:52 [restartedMain] INFO  org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-07-16 15:22:53 [restartedMain] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-07-16 15:22:53 [restartedMain] INFO  com.example.loggingdemo.LoggingdemoApplication - Started LoggingdemoApplication in 2.28 seconds (process running for 3.251)
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  com.example.loggingdemo.LoggingAspect - ➡️ [AOP] addStudent(Amina)
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  com.example.loggingdemo.StudentService - 📚 [INFO] Adding student: Amina
+2025-07-16 15:25:06 [http-nio-8080-exec-2] DEBUG com.example.loggingdemo.StudentService - 🔍 [DEBUG] addStudent() called with name='Amina'
+2025-07-16 15:25:06 [http-nio-8080-exec-2] INFO  com.example.loggingdemo.LoggingAspect - ⬅️ [AOP] addStudent returned: void (0 ms)
+2025-07-16 15:26:22 [SpringApplicationShutdownHook] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-16 15:26:22 [tomcat-shutdown] INFO  org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
